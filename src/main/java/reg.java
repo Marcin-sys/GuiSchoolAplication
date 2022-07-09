@@ -179,7 +179,8 @@ public class reg extends JFrame {
     }
 
     private void createTable() {
-        table1.setModel(new DefaultTableModel(null,new String[]{"Id", "Name", "Mobile", "Course"}));
+        table1.setModel(new DefaultTableModel
+                (null,new String[]{"Id", "Name", "Mobile", "Course"}));
     }
 
 }
